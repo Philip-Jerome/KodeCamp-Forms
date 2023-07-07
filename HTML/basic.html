@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/basic.css">
+    <title>Form Flexbox</title>
+</head>
+<body>
+    <section class="form-layout">
+        <div class="form-container">
+            <div class="logo">
+            <a href="#"><img src="../IMAGES/kodecamp_logo.png" alt="KodeCamp logo"></a>
+            </div>
+            <h1>Sign Up</h1>
+            <div class="form-flex">
+                <div class="form-style">
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" id="firstname">
+                </div>
+                <div class="form-style">
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text" id="lastname">
+                </div>
+            </div>
+            <div class="form-flex">
+                <div class="form-style">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-style">
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" id="gender" name="gender">
+                    <label for="male" class="radio-margin">Male</label>
+                    <input type="radio" id="gender" name="gender">
+                    <label for="female" class="radio-margin">Female</label>
+                    <input type="radio" id="gender" name="gender">
+                    <label for="other" class="radio-margin">Other</label>
+                </div>
+            </div>
+            <div class="form-flex">
+                <div class="form-style">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password">
+                </div>
+                <div class="form-style">
+                    <label for="password">Confirm Password</label><br>
+                    <input type="password" id="password">
+                </div>
+            </div>
+            <div class="form-flex">
+                <div class="form-style">
+                    <label for="education">Educational Level</label><br>
+                    <select name="" id="">
+                        <option value="">Primary</option>
+                        <option value="">Secondary</option>
+                        <option value="">Tertiary</option>
+                    </select>
+                </div>
+                <div class="form-style">
+                    <label for="experience">Experince Level</label><br>
+                    <select name="" id="">
+                        <option value="">Beginner</option>
+                        <option value="">Intermediate</option>
+                        <option value="">Advanced</option>
+                    </select>
+                </div>
+            </div>
+                <div>
+                    <label for="about">Tell us about you</label><br>
+                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                </div>
+                <div class="submit-button">
+            <input type="submit" value="Create Account">
+                </div>
+        </div>
+        <div class="image-container">
+            <p>kodecamp</p>
+            <h2>JOIN OUR NEXT COHORT</h2>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #579ce6;
+    margin-bottom: 15px;
+}
+
+p {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+label {
+    font-weight: 600;
+}
+
+.form-container {
+    width: 60%;
+    height: 100vh;
+    padding: 25px;
+}
+
+.image-container {
+    width: 40%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../IMAGES/kodecamp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.form-layout {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-container .form-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"], input[type="email"], input[type="password"],  select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+}
+
+.form-flex .form-style {
+    width: 48%;
+}
+
+.radio-margin {
+    margin-right: 12px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 25px;
+    color: #fff;
+    background: #3e5bab;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-container .submit-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
